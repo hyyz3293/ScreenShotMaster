@@ -19,7 +19,11 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        // github
+        maven{url'http://developer.huawei.com/repo/'}
+        maven { url 'https://jitpack.io' }
+        maven { url 'http://dl.bintray.com/dev-fingerlinks/maven' }
+        mavenCentral()
     }
 }
 
